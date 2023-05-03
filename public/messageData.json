@@ -1,0 +1,45 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.ibb.co/KV93RLx/chairman-1.jpg",
+        "quote": "Our goal is to create beautiful and functional designs that meet our client’s needs and exceed their expectations.",
+        "detail": [
+            "It is my pleasure to welcome you to our architecture firm, where we are dedicated to creating innovative designs that transform the built environment.",
+            "As a Chairman of our company, I have been fortunate to lead a team of talented architects, designers, and project managers who share a passion for excellence and a commitment to exceptional customer service.",
+            "Over the years, we have worked on diverse projects, from luxury homes and commercial buildings to public spaces and cultural institutions. We bring the same level of creativity, attention to detail, and professionalism to each project, regardless of its size or scope.",
+            "At our firm, we understand that each project presents a unique set of challenges and opportunities. That's why we take a collaborative approach to design, working closely with our clients to understand their vision and goals. We believe that this approach, combined with our technical expertise and creative vision, is what sets us apart from other firms in the industry.",
+            "I invite you to explore our website to learn more about our firm, our services, and our past projects. If you have any questions or would like to schedule a consultation, please do not hesitate to reach out to us.",
+            "Thank you for considering our company for your next project. We look forward to the opportunity to work with you."
+        ],
+        "name": "Nasima Mostafa",
+        "designation": "Chairman of Sketch ArchEA"
+    },
+    {
+        "id": 2,
+        "img": "https://i.ibb.co/09BDXdh/monowar.jpg",
+        "quote": "We take great pride in the quality of our work and the relationships we build with our clients.",
+        "detail": [
+            "I am delighted to welcome you to our website, where you can learn more about our architecture firm and the services we offer.",
+            "At our company, we are committed to delivering the highest quality designs that meet each of our client’s unique needs. Our team of experienced architects, interior designers, and project managers work collaboratively with clients to ensure that each project is tailored to their specific requirements and goals.",
+            "Our team is passionate about creating designs that are functional and beautiful and have a positive impact on the communities they serve.",
+            "We invite you to explore our website to learn more about our firm, our services, and our past projects. If you have any questions or would like to schedule a consultation, please don't hesitate to contact us.",
+            "Thank you for considering our firm for your next project. We look forward to the opportunity to work with you."
+        ],
+        "name": "Quazi Monowar Uddin Ahmed",
+        "designation": " Managing Director of Sketch ArchEA"
+    },
+    {
+        "id": 3,
+        "img": "https://i.ibb.co/n3sPBjh/shahriar.jpg",
+        "quote": "We work closely with each of our clients to create a design that is beautiful and functional and aligned with their unique vision and values.",
+        "detail": [
+            "I am honored to welcome you to our architecture firm, where we are passionate about creating designs that inspire and transform the world around us.",
+            "As a CEO of our company, I have the privilege of leading a team of talented architects, designers, and project managers who bring a wealth of experience, creativity, and technical expertise to every project we undertake. Our team is dedicated to delivering high-quality designs that meet our client’s needs, while also pushing the boundaries of what's possible in architecture.",
+            "We take great pride in our work, and we believe that our designs have the power to shape the way people live, work, and interact with their environment. From the smallest details to the grandest visions, we are committed to excellence in every aspect of our work.",
+            "We invite you to explore our website to learn more about our firm, our services, and our past projects. If you have any questions or would like to schedule a consultation, please don't hesitate to contact us.",
+            "Thank you for considering our company for your next project. We look forward to the opportunity to work with you."
+        ],
+        "name": "Shahriar Pavel",
+        "designation": "CEO of Sketch ArchEA"
+    }
+]

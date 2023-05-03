@@ -1,0 +1,37 @@
+.design-bg{
+    background-image: linear-gradient(to left top, #151516, #3b4043, #647172, #95a59d, #d4dac8);
+    /* background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat; */
+    width: 100%;
+    height: 35vh;
+    position: relative;
+}
+
+.design-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(250, 247, 247);
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.project-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;  
+}
+
+.project-img{
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 3px rgb(33, 30, 30)
+}
+
+.portfolio-link{
+    color: black;
+    font-weight: 700;
+}

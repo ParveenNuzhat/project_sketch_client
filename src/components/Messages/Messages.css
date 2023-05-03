@@ -1,0 +1,39 @@
+.message-bg{
+    background-image: url('../../Images/message.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    opacity: 0.7;
+    position: relative;
+}
+
+.message-text{
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: rgb(18, 18, 18);
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.message{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+.msg-colon{
+    font-size: 65px;
+    color: #474444;
+    opacity: 0.4;
+}
+
+.message-img{
+    height: 350px;
+    /* border: 3px solid rgb(35, 34, 34); */
+    border-radius: 7px;
+    box-shadow: 3px 3px 10px rgb(50, 48, 48);
+}

@@ -1,0 +1,39 @@
+.quote-l{
+    font-size: 35px;
+    text-align: start;
+}
+.quote-r{
+    font-size: 15px;
+}
+
+.slogan-text{
+    font-size: 30px;
+    color: white;
+}
+
+.author{
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+    font-family: 'Island Moments', cursive
+}
+
+.slogan-p{
+    font-size: 33px;
+    font-weight: 600;
+    color: var(--text-color);
+    text-transform: uppercase;
+    text-shadow: 2px 2px orange;
+}
+
+.slogan-subtext{
+    font-size: 19px;
+    font-weight: 600;
+    color: var(--text-color);
+    letter-spacing: 0.5px;
+}
+
+/* .slogan-card1{
+    animation: fadeInLeft;
+    animation-duration: 3s;
+} */

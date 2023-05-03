@@ -1,0 +1,18 @@
+.message{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+.msg-colon{
+    font-size: 65px;
+    color: #474444;
+    opacity: 0.4;
+}
+
+.message-img{
+    /* border: 3px solid rgb(35, 34, 34); */
+    border-radius: 7px;
+    box-shadow: 3px 3px 10px rgb(50, 48, 48);
+}

@@ -1,0 +1,13 @@
+.add-message form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.add-message form input, textarea{
+    width: 50%;
+    padding: 25px;
+    border-radius: 7px;
+
+}

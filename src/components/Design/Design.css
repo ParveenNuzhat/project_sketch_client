@@ -1,0 +1,31 @@
+.gallery-img{
+    transition: transform .3s;
+}
+
+.gallery-img:hover{
+    transform:scale(2.5)
+}
+
+.sketch-container{
+    background-image: url('../../Images/sketch.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    opacity: 0.7;
+    min-height: 430px;
+}
+
+.about-card{
+    background: linear-gradient(to bottom right,#002f4b,#dc4225);
+    width: 70%;
+    height: 23vh;
+    border: none;
+    box-shadow: 5px 5px 7px 3px rgb(120, 119, 119);
+    margin-top: -65px;
+}
+
+.count-up-text{
+    color: white;
+    font-size: 60px;
+    font-weight: normal;
+}
