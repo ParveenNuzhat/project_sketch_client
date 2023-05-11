@@ -37,3 +37,67 @@
     border-radius: 7px;
     box-shadow: 3px 3px 10px rgb(50, 48, 48);
 }
+
+@media (max-width: 767px){
+    .message-text{
+        top: 45%;
+        left: 35%;
+        font-size: 25px;
+        font-weight: 700;
+        white-space: pre-line !important;
+    }
+    .msg-span{
+        margin-left: 15px !important;
+    }
+
+    .message-img, .message, .msg-colon{
+        margin-bottom: 25px !important;
+    }
+    .message{
+        text-align: center !important;
+        padding: 0 !important;
+        font-size: 23px;
+    }
+    .msg-colon{
+        font-size: 45px;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 991px){
+    .message-text{
+        top: 50%;
+        left: 30%;
+        font-size: 30px;
+        font-weight: 700;
+        white-space: pre-line !important;
+    }
+    .msg-span{
+        margin-left: 25px !important;
+    }
+    .msg-row{
+        display: block !important;
+        
+    }
+    .img-box, .quote-box, .mark-box{
+        width: 100% !important; 
+        margin: 0 auto !important; 
+    }
+
+    .message-img, .message, .msg-colon{
+        margin-bottom: 25px !important;
+    }
+
+    .message-img{
+        width: 40% !important;
+        height: 50vh !important;
+        padding: 30px !important;
+    }
+    .message{
+        text-align: center !important;
+        padding: 0 !important;
+        font-size: 30px;
+    }
+    .msg-colon{
+        font-size: 55px;
+    }
+}

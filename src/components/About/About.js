@@ -28,13 +28,13 @@ const About = () => {
           </h2>
 
           <Container>
-            <Row className="d-md-flex align-items-center justify-content-center">
-              <Col md={6} className="text-center">
-                <img src={image} alt="" className="w-75" />
+            <Row className="about-row d-md-flex align-items-center justify-content-center">
+              <Col md={6} className="about-img text-center">
+                <img src={image} alt="" className=" w-75" />
               </Col>
-              <Col md={6} className="text-justify">
+              <Col md={6} className="about-text text-justify">
                 <p
-                  className="w-75 mx-5"
+                  className="about-p w-75 mx-5"
                   style={{
                     fontSize: "16px",
                     color: "#474444",

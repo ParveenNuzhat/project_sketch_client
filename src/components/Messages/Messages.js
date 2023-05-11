@@ -7,6 +7,7 @@ import { useState } from "react";
 // import Message from "../Message/Message";
 import AOS from "aos";
 import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
+import Footer from "../Footer/Footer";
 
 const Messages = () => {
   const [messages, setMessages] = useState([]);
@@ -28,30 +29,31 @@ const Messages = () => {
           className="message-text"
           // style={{ fontFamily: "Poppins, sans-serif" }}
         >
-          Messages from <br /> <span className="ms-5">Top Management</span>
+          Messages from <br />{" "}
+          <span className="msg-span ms-5">Top Management </span>
         </h3>
       </div>
       <Container>
-        <Row className="mx-auto pt-5 d-flex align-items-center justify-content-center">
+        <Row className=" mx-auto pt-5 d-flex align-items-center justify-content-center">
           {messages.map((message, index) =>
             index % 2 === 0 ? (
               // <Message key={message.id} message={message}></Message>
               <div>
                 <Col className="py-5">
-                  <Row className="d-md-flex align-items-center justify-content-center">
-                    <Col md={4} className="text-center">
+                  <Row className="msg-row d-md-flex align-items-center justify-content-center">
+                    <Col md={4} className="img-box text-center">
                       <img
                         src={message.img}
                         alt=""
-                        className="message-img w-75 p-5"
+                        className="message-img w-75 p-5 img-fluid"
                         data-aos="fade-right"
                         data-aos-easing="linear"
                         data-aos-duration="1000"
                       />
                     </Col>
-                    <Col md={5} className="text-end ps-5">
+                    <Col md={5} className="quote-box text-end">
                       <h3
-                        className="message"
+                        className="message ps-5"
                         data-aos="fade-left"
                         data-aos-easing="linear"
                         data-aos-duration="1000"
@@ -61,7 +63,7 @@ const Messages = () => {
                     </Col>
                     <Col
                       md={3}
-                      className="text-center"
+                      className="mark-box text-center"
                       data-aos="fade-left"
                       data-aos-easing="linear"
                       data-aos-duration="1000"
@@ -84,7 +86,12 @@ const Messages = () => {
                         {item}
                       </p>
                     ))} */}
-                    <p className="text-justify">{message.detail}</p>
+                    <p
+                      className="text-justify"
+                      style={{ whiteSpace: "pre-line" }}
+                    >
+                      {message.detail}
+                    </p>
 
                     <div className="pt-3">
                       <h5>
@@ -102,19 +109,19 @@ const Messages = () => {
             ) : (
               <div>
                 <Col className="py-5">
-                  <Row className="d-md-flex align-items-center justify-content-center">
+                  <Row className="msg-row d-md-flex align-items-center justify-content-center">
                     <Col
                       md={3}
-                      className="text-center"
+                      className="mark-box text-center"
                       data-aos="fade-right"
                       data-aos-easing="linear"
                       data-aos-duration="1000"
                     >
                       <FaQuoteLeft className="msg-colon" />
                     </Col>
-                    <Col md={5} className="text-justify pe-5">
+                    <Col md={5} className="quote-box text-justify">
                       <h3
-                        className="message"
+                        className="message pe-5"
                         data-aos="fade-right"
                         data-aos-easing="linear"
                         data-aos-duration="1000"
@@ -122,11 +129,11 @@ const Messages = () => {
                         {message.quote}
                       </h3>
                     </Col>
-                    <Col md={4} className="text-center">
+                    <Col md={4} className="img-box text-center">
                       <img
                         src={message.img}
                         alt=""
-                        className="message-img w-75 p-5"
+                        className="message-img w-75 p-5 img-fluid"
                         data-aos="fade-left"
                         data-aos-easing="linear"
                         data-aos-duration="1000"
@@ -148,7 +155,12 @@ const Messages = () => {
                         {item}
                       </p>
                     ))} */}
-                    <p className="text-justify">{message.detail}</p>
+                    <p
+                      className="text-justify"
+                      style={{ whiteSpace: "pre-line" }}
+                    >
+                      {message.detail}
+                    </p>
                     <div className="pt-3">
                       <h5>
                         <i>
@@ -166,6 +178,7 @@ const Messages = () => {
           )}
         </Row>
       </Container>
+      <Footer></Footer>
     </div>
   );
 };

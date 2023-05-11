@@ -34,3 +34,50 @@
     font-weight: 900;
     
 }
+
+.service-row{
+    width: 85%;
+}
+
+@media (max-width: 767px) {
+    .service-container{
+        overflow-x: hidden !important;
+    }
+    .service-bg{
+        width: 100%;
+        height: 53vh;
+        box-shadow:  none;
+    }
+    .service-header{
+        top: 15%;
+        left: 45%;
+        font-size: 30px ;
+        white-space:nowrap !important
+    }
+    .service-row{
+        width: 100% !important;
+        margin: 0 auto !important;
+        /* text-align: center !important; */
+    }
+    
+}
+
+@media (min-width: 767px) and (max-width: 991px){
+    /* .service-container{
+        overflow-x: hidden !important;
+    } */
+    .service-row{
+        width: 70% !important;
+        margin: 0 auto !important;
+        text-align: center !important;
+    }
+    .service-bg{
+        width: 100%;
+        height: 53vh;
+    }
+    .service-header{
+        top: 55%;
+        left: 25%;
+        font-size: 35px ;
+    }
+}

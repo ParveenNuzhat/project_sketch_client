@@ -1,148 +1,101 @@
 [
     {
         "id": 1,
-        "designName": "Landscape Design",
-        "img": "https://i.ibb.co/s5GjZhf/design-logo.png",
-        "description": "Transform your outdoor space with our custom landscape design services. Let us create a beautiful and functional oasis for you to enjoy.",
-        "projectBg": "https://i.ibb.co/HqDXHgB/landscape.jpg",
+        "serviceName": "Commercial Interior",
+        "img": "https://i.ibb.co/4tzytg9/com-img.jpg",
+        "description": "Create a lasting impression with our innovative commercial building design services. We combine function and aesthetics for a truly impressive result.",
         "project": [
             {
-                "title": "Nandan Village Resort",
-                "projectImg": "https://i.ibb.co/dWgLHLd/resort.jpg",
-                "projectLink": "https://drive.google.com/drive/folders/1EMHd-mracD5884St692rMRjFO5FSbNhU?usp=share_link",
-                "projectDetail": "weuiwej woeiuo iwejwloeikj oweoijn owjeowk oewionwj nowkeon jwoieein owijeoij obwiejoiwejr obwj neoiejr oeiwj oerjwoe kjoiw jhwiejhr iowe jhrowiejroiwjoeri eirujhwirj iowje u8ebri8uwieji bije oiiwqjeieojiowq ejoije oijwei oijwoiejoie."
+                "_id": 1,
+                "title": "Gulshan North Club",
+                "projectImg": "https://i.ibb.co/0fWR1p4/1.jpg",
+                "images": [
+                    "https://i.ibb.co/0fWR1p4/1.jpg",
+                    "https://i.ibb.co/RNj5qT6/2.jpg"
+                ]
             },
             {
-                "title": "Uttara Club Rooftop",
-                "projectImg": "https://i.ibb.co/dWgLHLd/resort.jpg",
-                "projectLink": "https://drive.google.com/drive/folders/1EMHd-mracD5884St692rMRjFO5FSbNhU?usp=share_link",
-                "projectDetail": "weuiwej woeiuo iwejwloeikj oweoijn owjeowk oewionwj nowkeon jwoieein owijeoij obwiejoiwejr obwj neoiejr oeiwj oerjwoe kjoiw jhwiejhr iowe jhrowiejroiwjoeri eirujhwirj iowje u8ebri8uwieji bije oiiwqjeieojiowq ejoije oijwei oijwoiejoie."
+                "_id": 2,
+                "title": "Hill View 3D",
+                "projectImg": "https://i.ibb.co/YdvF9Sd/1.png",
+                "images": [
+                    "https://i.ibb.co/YdvF9Sd/1.png",
+                    "https://i.ibb.co/kqYhqg3/2.jpg",
+                    "https://i.ibb.co/CwC75X2/3.jpg",
+                    "https://i.ibb.co/thTnKZ7/4.png",
+                    "https://i.ibb.co/xDs9SZT/5.jpg",
+                    "https://i.ibb.co/rp4ZZN0/6.png"
+                ]
+            },
+            {
+                "_id": 3,
+                "title": "Hotel West Valley",
+                "projectImg": "https://i.ibb.co/wSdYfDJ/1.jpg",
+                "images": [
+                    "https://i.ibb.co/wSdYfDJ/1.jpg",
+                    "https://i.ibb.co/QNWSM1Q/2.jpg"
+                ]
+            },
+            {
+                "_id": 4,
+                "title": "Willowy Showroom",
+                "projectImg": "https://i.ibb.co/6YqkGyQ/1.jpg",
+                "images": [
+                    "https://i.ibb.co/6YqkGyQ/1.jpg",
+                    "https://i.ibb.co/zfjwJpR/2.jpg",
+                    "https://i.ibb.co/DwNmkKw/3.jpg"
+                ]
             }
         ]
     },
     {
         "id": 2,
-        "designName": "Interior Construction",
-        "img": "https://i.ibb.co/s5GjZhf/design-logo.png",
-        "description": "Landscape design is the unique combination of nature and culture—utilizing physical elements such as plants, fountains, and other items, this process transforms your garden from a typical outdoor space to something incredibly unique landscape design. Sketch has completed some of the finest projects and also achieved the high standards of our clients.",
-        "projectBg": "https://i.ibb.co/HqDXHgB/landscape.jpg",
-        "project": [
-            {
-                "title": "Nandan Village Resort",
-                "projectImg": "https://i.ibb.co/dWgLHLd/resort.jpg",
-                "projectLink": "https://drive.google.com/drive/folders/1EMHd-mracD5884St692rMRjFO5FSbNhU?usp=share_link",
-                "projectDetail": ""
-            },
-            {
-                "title": "Uttara Club Rooftop",
-                "projectImg": "",
-                "projectLink": "",
-                "projectDetail": ""
-            }
-        ]
-    },
-    {
-        "id": 3,
-        "designName": "Commercial Interior",
-        "img": "https://i.ibb.co/s5GjZhf/design-logo.png",
-        "description": "Create a lasting impression with our innovative commercial building design services. We combine function and aesthetics for a truly impressive result.",
-        "projectBg": "https://i.ibb.co/HqDXHgB/landscape.jpg",
-        "project": [
-            {
-                "title": "Nandan Village Resort",
-                "projectImg": "https://i.ibb.co/dWgLHLd/resort.jpg",
-                "projectLink": "https://drive.google.com/drive/folders/1EMHd-mracD5884St692rMRjFO5FSbNhU?usp=share_link",
-                "projectDetail": ""
-            },
-            {
-                "title": "Uttara Club Rooftop",
-                "projectImg": "",
-                "projectLink": "",
-                "projectDetail": ""
-            }
-        ]
-    },
-    {
-        "id": 4,
-        "designName": "Residential Interior",
-        "img": "https://i.ibb.co/s5GjZhf/design-logo.png",
+        "serviceName": "Residential Interior",
+        "img": "https://i.ibb.co/CKqvJ41/design-logo.png",
         "description": "Transform your home with our bespoke residential interior design services. We create beautiful and functional spaces that reflect your unique style.",
-        "projectBg": "https://i.ibb.co/HqDXHgB/landscape.jpg",
         "project": [
             {
-                "title": "Nandan Village Resort",
-                "projectImg": "https://i.ibb.co/dWgLHLd/resort.jpg",
-                "projectLink": "https://drive.google.com/drive/folders/1EMHd-mracD5884St692rMRjFO5FSbNhU?usp=share_link",
-                "projectDetail": ""
+                "_id": 1,
+                "title": "Basundhara MD House",
+                "projectImg": "https://i.ibb.co/ZLPjxsd/8.jpg",
+                "images": [
+                    "https://i.ibb.co/rb3JFZN/2.jpg",
+                    "https://i.ibb.co/9NzbHcJ/3.jpg",
+                    "https://i.ibb.co/SmfVVsp/4.jpg",
+                    "https://i.ibb.co/BPBrS3G/5.jpg",
+                    "https://i.ibb.co/3YsrD59/6.jpg",
+                    "https://i.ibb.co/S3zzcPF/7.jpg",
+                    "https://i.ibb.co/ZLPjxsd/8.jpg"
+                ]
             },
             {
-                "title": "Uttara Club Rooftop",
-                "projectImg": "",
-                "projectLink": "",
-                "projectDetail": ""
-            }
-        ]
-    },
-    {
-        "id": 5,
-        "designName": "Commercial Building Design",
-        "img": "https://i.ibb.co/s5GjZhf/design-logo.png",
-        "description": "Create a lasting impression with our innovative commercial building design services. We combine function and aesthetics for a truly impressive result.",
-        "projectBg": "https://i.ibb.co/HqDXHgB/landscape.jpg",
-        "project": [
-            {
-                "title": "Nandan Village Resort",
-                "projectImg": "https://i.ibb.co/dWgLHLd/resort.jpg",
-                "projectLink": "https://drive.google.com/drive/folders/1EMHd-mracD5884St692rMRjFO5FSbNhU?usp=share_link",
-                "projectDetail": ""
+                "_id": 2,
+                "title": "Dr Rashida Apartment",
+                "projectImg": "https://i.ibb.co/RQgjD05/1.jpg",
+                "images": [
+                    "https://i.ibb.co/RQgjD05/1.jpg",
+                    "https://i.ibb.co/ZVXnWNh/2.jpg",
+                    "https://i.ibb.co/7ggkt5Z/3.jpg",
+                    "https://i.ibb.co/PrmFMQP/4.jpg",
+                    "https://i.ibb.co/5BF7gG7/5.jpg",
+                    "https://i.ibb.co/CJ4cvNz/6.jpg",
+                    "https://i.ibb.co/vxtDjzr/7.jpg",
+                    "https://i.ibb.co/kcCkhs7/8.jpg",
+                    "https://i.ibb.co/Z2TJr1J/10.jpg"
+                ]
             },
             {
-                "title": "Uttara Club Rooftop",
-                "projectImg": "",
-                "projectLink": "",
-                "projectDetail": ""
-            }
-        ]
-    },
-    {
-        "id": 6,
-        "designName": "Residential Building Design",
-        "img": "https://i.ibb.co/s5GjZhf/design-logo.png",
-        "description": "Design your dream home with our custom residential building design services. We create homes that are functional, beautiful, and perfectly tailored to you.",
-        "projectBg": "https://i.ibb.co/HqDXHgB/landscape.jpg",
-        "project": [
-            {
-                "title": "Nandan Village Resort",
-                "projectImg": "https://i.ibb.co/dWgLHLd/resort.jpg",
-                "projectLink": "https://drive.google.com/drive/folders/1EMHd-mracD5884St692rMRjFO5FSbNhU?usp=share_link",
-                "projectDetail": ""
-            },
-            {
-                "title": "Uttara Club Rooftop",
-                "projectImg": "",
-                "projectLink": "",
-                "projectDetail": ""
-            }
-        ]
-    },
-    {
-        "id": 7,
-        "designName": "Building Construction",
-        "img": "https://i.ibb.co/s5GjZhf/design-logo.png",
-        "description": "Bring your vision to life with our expert building construction services. We build with precision and quality to create spaces that last a lifetime.",
-        "projectBg": "https://i.ibb.co/HqDXHgB/landscape.jpg",
-        "project": [
-            {
-                "title": "Nandan Village Resort",
-                "projectImg": "https://i.ibb.co/dWgLHLd/resort.jpg",
-                "projectLink": "https://drive.google.com/drive/folders/1EMHd-mracD5884St692rMRjFO5FSbNhU?usp=share_link",
-                "projectDetail": ""
-            },
-            {
-                "title": "Uttara Club Rooftop",
-                "projectImg": "",
-                "projectLink": "",
-                "projectDetail": ""
+                "_id": 3,
+                "title": "Salim Apartment",
+                "projectImg": "https://i.ibb.co/JzP5Krx/4.jpg",
+                "images": [
+                    "https://i.ibb.co/SnkfYx8/1.jpg",
+                    "https://i.ibb.co/X7m5Gtk/2.jpg",
+                    "https://i.ibb.co/QDRCMGV/3.jpg",
+                    "https://i.ibb.co/JzP5Krx/4.jpg",
+                    "https://i.ibb.co/7gjVFdP/5.jpg",
+                    "https://i.ibb.co/xsJXMK1/7.jpg"
+                ]
             }
         ]
     }

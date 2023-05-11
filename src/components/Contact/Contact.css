@@ -1,13 +1,9 @@
-.contact-sec{
-    min-height: 100vh;
-}
-
 .icon-bg{
-    font-size: 35px;
-    color: rgb(10, 161, 48);
+    font-size: 30px;
+    color: rgb(41, 171, 74);
 }
 
-form input, textarea{
+form input, .contact-text{
     width: 75%;
     margin-top: 25px;
     
@@ -19,42 +15,103 @@ form input, textarea{
 }
 
 .contact-btn{
-    background: #696969;
-    width: 35%;
-    padding: 10px;
-    border-radius: 25px;
-    color: lawngreen;
+    background: rgb(249, 227, 200);
+    width: 30%;
+    padding: 12px;
+    border-radius: 10px;
+    color: rgb(41, 171, 74);
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
 }
 
-@media (max-width: 576px){
-    .contact-title{
-        text-align: center;
+.submit-icon{
+    font-size: 18px;
 }
 
+@media (max-width: 767px){
+   
+    .contact-title{
+        text-align: center;
+        text-decoration: underline;
+}
     .contact-info{
         width: 100%;
-        margin: 0 auto;
+        margin: 0 auto !important;
+        padding-top: 20px !important;
+        white-space:pre !important;
     }
     .icons{
-        margin-top: 5px;
+        margin-top: 15px;
         font-size: 13px;
         text-align: center;
         letter-spacing: -0.9px;
     }
     .icon-bg{
         align-items: center;
-        font-size: 30px;
+        font-size: 28px !important;
         display: flex;
         flex-direction: column; 
     }
+    .form-title{
+        margin-top: 40px;
+        text-decoration: underline;
+    }
+    .contact-form{
+        padding-top: 5px !important;
+    }
 
-    form input, textarea{
+    form input, .contact-text{
         width: 80%;
     }
     .contact-btn{
-        width: 60%;
+        width: 50%;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 991px){
+    .contact-row{
+        display: block !important;
+        
+    }
+    .contact-col, .form-col{
+        width: 80%;
+        margin: 0 auto !important;
+    }
+    .contact-title{
+        text-align: center;
+        text-decoration: underline;
+}
+    .contact-info{
+        width: 80%;
+        margin: 15px auto !important;
+        padding-top: 20px !important;
+        white-space:pre !important;
+    }
+    .icons{
+        margin-top: 15px;
+        font-size: 13px;
+        text-align: center;
+        letter-spacing: -0.9px;
+    }
+    /* .icon-bg{
+        align-items: center;
+        font-size: 28px !important;
+        display: flex;
+        flex-direction: column; 
+    } */
+    .form-title{
+        margin-top: 50px;
+        text-decoration: underline;
+    }
+    .contact-form{
+        padding-top: 5px !important;
+    }
+
+    form input, .contact-text{
+        width: 80%;
+    }
+    .contact-btn{
+        width: 50%;
     }
 }

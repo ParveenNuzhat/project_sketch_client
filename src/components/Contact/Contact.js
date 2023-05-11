@@ -23,10 +23,10 @@ const Contact = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_vjrs5gs",
-        "template_ki165nb",
+        "testid2345",
+        "template_fw5uwv4",
         formRef.current,
-        "E-_8_ouPlg1fwaYeo"
+        "P_hzW72if7a7dixkh"
       )
       .then(
         (result) => {
@@ -48,11 +48,7 @@ const Contact = () => {
   return (
     <div className="home-container">
       <Header></Header>
-      <Container
-        className="mt-4 pt-3 contact-sec"
-        id="contact"
-        style={{ height: "100vh" }}
-      >
+      <Container className="mt-4 pt-3 contact-sec" id="contact">
         <div
           data-aos="fade-down"
           data-aos-easing="linear"
@@ -75,21 +71,21 @@ const Contact = () => {
         </div>
 
         <Row
-          className="mt-5 pt-3"
+          className="contact-row mt-5 pt-3 d-md-flex justify-content-center"
           data-aos="fade-up"
           data-aos-easing="linear"
           data-aos-duration="1500"
         >
-          <Col md={6} className="">
+          <Col md={6} className="contact-col">
             <h4
               className="contact-title text-center"
               style={{ color: "bisque" }}
             >
               Contact Details
             </h4>
-            <div className="contact-info w-75 p-5">
+            <div className="contact-info mt-5 pt-5">
               <p className="icon-bg">
-                <FaPhoneSquare />{" "}
+                <FaPhoneSquare />
                 <span
                   className="icons px-3"
                   style={{ fontSize: "20px", color: "white" }}
@@ -98,7 +94,7 @@ const Contact = () => {
                 </span>
               </p>
               <p className="icon-bg">
-                <FaAt />{" "}
+                <FaAt />
                 <span
                   className="icons px-3"
                   style={{ fontSize: "20px", color: "white" }}
@@ -107,60 +103,65 @@ const Contact = () => {
                 </span>
               </p>
               <p className="icon-bg">
-                <FaMapMarkerAlt />{" "}
+                <FaMapMarkerAlt />
                 <span
                   className="icons px-3"
                   style={{ fontSize: "18px", color: "white" }}
                 >
-                  House: 39, Road: 06, Block: C
+                  House: 39, Road: 06, Block: C, Niketon, Dhaka -1212
                 </span>
               </p>
-              <p
+              {/* <p
                 className="ps-5 ms-2"
                 style={{ fontSize: "18px", color: "white" }}
               >
                 Niketon, Dhaka -1212
-              </p>
+              </p> */}
             </div>
           </Col>
-          <Col md={6} className="text-center">
-            <h4 style={{ color: "bisque" }}>Feel Free to Ask Anything</h4>
+
+          <Col md={6} className="form-col text-center">
+            <h4 className="form-title" style={{ color: "bisque" }}>
+              Feel Free to Ask Anything
+            </h4>
             <form
               ref={formRef}
-              className="contact-form mt-4"
+              className="contact-form pt-3"
               onSubmit={handleSubmit}
             >
               <input
-                className="p-2 border-0 rounded"
+                className="px-3 py-2 border-0 rounded"
                 type="text"
                 name="name"
                 placeholder="Name"
               />{" "}
               <br />
               <input
-                className="p-2 border-0 rounded"
+                className="px-3 py-2 border-0 rounded"
                 type="text"
                 name="subject"
                 placeholder="Subject"
               />{" "}
               <br />
               <input
-                className="p-2 border-0 rounded"
+                className="px-3 py-2 border-0 rounded"
                 type="email"
                 name="email"
                 placeholder="Your Email Address"
+                required
               />{" "}
               <br />
               <textarea
-                className="p-2 border-0 rounded"
+                className="contact-text px-3 py-2 border-0 rounded"
                 name="message"
                 rows="5"
                 placeholder="Write Your Message"
+                required
               ></textarea>{" "}
               <br />
               <Button type="submit" className="mt-4 contact-btn border-0">
-                Send Message{" "}
-                <span style={{ color: "tomato" }}>
+                Send
+                <span className="submit-icon ms-2" style={{ color: "orange" }}>
                   <FaPaperPlane />
                 </span>
               </Button>

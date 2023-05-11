@@ -30,3 +30,12 @@
     
 }
 
+@media (max-width: 767px){
+    .TextBackground {
+        width: 100%;
+        height: 80vh;
+        margin: 0 auto;
+        background-size: contain;
+        
+    }
+}

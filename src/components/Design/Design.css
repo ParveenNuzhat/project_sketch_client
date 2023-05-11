@@ -29,3 +29,28 @@
     font-size: 60px;
     font-weight: normal;
 }
+
+@media (max-width: 767px) {
+    .media-container{
+        margin-top: 0px !important;
+        padding-top: 0px !important;
+        
+    }
+
+    .sketch-container{
+        background-image: none;
+    }
+    .about-card{
+        width: 100%;
+        margin: 25px 0 !important;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 991px){
+    .sketch-container{
+        min-height: 350px;
+    }
+    .about-card{
+        width: 100%;
+    }
+}

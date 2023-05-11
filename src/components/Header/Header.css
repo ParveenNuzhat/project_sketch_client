@@ -51,4 +51,29 @@
 
 
 
+@media (max-width: 767px) {
+    .header-container{
+        height: 100px !important;
+    }
+    .nav-img{
+        padding: 0 !important;
+    }
+    .menu-bg{
+        background-color: #101010;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+    .header-container{
+        height: 100px !important;
+    }
+    .nav-img{
+        padding: 3px !important;
+    }
+    .menu-bg{
+        background-color: #101010;
+    }
+}
+
+
 

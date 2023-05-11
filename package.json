@@ -11,6 +11,7 @@
     "aos": "^2.3.4",
     "axios": "^1.4.0",
     "bootstrap": "^5.2.2",
+    "homepage": "http://egiftwall.com/",
     "react": "^18.2.0",
     "react-animation-on-scroll": "^5.1.0",
     "react-bootstrap": "^2.5.0",

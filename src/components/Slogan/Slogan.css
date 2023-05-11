@@ -37,3 +37,56 @@
     animation: fadeInLeft;
     animation-duration: 3s;
 } */
+
+@media (max-width: 767px) {
+    /* Styles for mobile devices */
+    .slogan-text{
+        font-size: 18px;
+    }
+    .quote-l{
+        font-size: 25px;
+        text-align: start;
+    }
+    .author{
+        font-size: 28px;
+        font-weight: 500;
+        
+    }
+    .slogan-card1{
+        width: 95% !important ;
+        margin: 0 auto !important;
+    }
+    .slogan-card2{
+        width: 80% !important ;
+        height: 37vh !important;
+        margin: 0px auto !important;
+    }
+  }
+
+@media (min-width: 767px) and (max-width: 991px) {
+    /* Styles for tablets */
+    .slogan-text{
+        font-size: 22px;
+    }
+    .quote-l{
+        font-size: 30px;
+        text-align: start;
+    }
+    .author{
+        font-size: 32px;
+        font-weight: 500;
+    }
+    .slogan-card1{
+        width: 90% !important ;
+        margin: 0 auto !important;
+    }
+    .slogan-card2{
+        width: 75% !important ;
+        height: 37vh !important;
+        margin-left: -25px !important;
+    }
+  }
+
+@media (min-width: 991px) {
+    /* Styles for desktop */
+  }

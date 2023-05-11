@@ -15,6 +15,8 @@ import Messages from "./components/Messages/Messages";
 import ServiceDetail from "./components/ServiceDetail/ServiceDetail";
 import Testimonials from "./components/Testimonials/Testimonials";
 import AddMessage from "./components/AddMessage/AddMessage";
+import Gallery from "./components/Gallery/Gallery";
+import GalleryFolder from "./components/GalleryFolder/GalleryFolder";
 
 function App() {
   return (
@@ -40,6 +42,9 @@ function App() {
         </Route>
         <Route path="/serviceDetail/:serviceId">
           <ServiceDetail></ServiceDetail>
+        </Route>
+        <Route path="/gallery/:galleryId">
+          <GalleryFolder></GalleryFolder>
         </Route>
         <Route path="/testimonials">
           <Testimonials></Testimonials>

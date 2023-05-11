@@ -24,20 +24,20 @@ const Header = () => {
             <NavLink to="/home">
               <img
                 src={logo}
+                width="85"
+                height="75"
                 alt="Logo"
-                width="80"
-                height="80"
-                className="p-2"
+                className="nav-img p-1 img-fluid"
                 style={{
                   // border: "1px solid white",
-                  borderRadius: "100px",
+                  borderRadius: "20px",
                 }}
               />
             </NavLink>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="ms-auto d-flex align-items-center">
+            <Nav className="menu-bg ms-auto d-flex align-items-center">
               <NavLink to="/home" className="menu-text">
                 Home
               </NavLink>

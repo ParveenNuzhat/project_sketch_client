@@ -12,6 +12,46 @@
    
 } */
 
+@media (max-width: 767px){
+    .about-text{
+        font-size: 30px !important;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 991px){
+    .about-text{
+        font-size: 40px !important;
+    }
+
+    .about-row{
+        display: block !important;
+        
+    }
+
+    .about-img{
+        width: 75% !important;
+        margin: 0 auto !important;
+        padding: 10px !important;
+        text-align: center !important;
+    }
+
+    .about-text{
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .about-p{
+        width: 75% !important;
+        margin: 0 auto !important;
+        padding-bottom: 20px !important;
+        text-align: justify !important;
+    }
+}
+
+
+
+
+
 
 
 

@@ -11,11 +11,11 @@ const Service = (props) => {
   useEffect(() => {
     AOS.init();
   }, []);
-  const { id, designName, img, description } = props.service;
+  const { id, serviceName, img, description } = props.service;
 
   return (
     <div>
-      <Col>
+      <Col className="service-box">
         <Card
           className="service-card text-center"
           data-aos="fade-up"
@@ -25,15 +25,15 @@ const Service = (props) => {
           <Link className="design-link" to={`/serviceDetail/${id}`}>
             <Card.Body>
               <Card.Title className="service-title">
-                {designName} <FaArrowRight />
+                {serviceName} <FaArrowRight />
               </Card.Title>
               <Card.Img
                 variant="top"
                 src={img}
-                className="service-img img-fluid"
+                className="service-img img-fluid p-3 my-4"
               />
 
-              <Card.Text style={{ color: "white" }}>
+              <Card.Text className="px-2" style={{ color: "white" }}>
                 {description.slice(0, 170)}
               </Card.Text>
             </Card.Body>

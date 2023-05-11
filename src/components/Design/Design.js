@@ -41,14 +41,14 @@ const Design = () => {
 
   const [counterOn, setCounterOn] = useState(false);
   return (
-    <div className="mt-5 pt-5">
+    <div className="media-container mt-5 pt-5">
       <div className="sketch-container mt-5 mb-5">
         <Container>
           <ScrollTrigger
             onEnter={() => setCounterOn(true)}
             onExit={() => setCounterOn(false)}
           >
-            <Row className="w-100 mx-auto d-md-flex align-items-center justify-content-center text-center">
+            <Row className="about-row w-100 mx-auto d-md-flex align-items-center justify-content-center text-center">
               <Col md={4}>
                 <Card
                   data-aos="flip-down"
@@ -163,7 +163,7 @@ const Design = () => {
               <SwiperSlide key={i * 0.9}>
                 <div className="single-slide">
                   <img
-                    className="gallery-img"
+                    className="gallery-img img-fluid"
                     src={item?.imgSrc}
                     alt=""
                     style={{

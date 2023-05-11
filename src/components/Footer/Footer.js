@@ -43,7 +43,7 @@ const Footer = () => {
             </div>
 
             <div>
-              <Row>
+              <Row className="footer-row">
                 <Col className="footer-second-div" md={3}>
                   <div>
                     <h5>Exploring</h5>
@@ -59,7 +59,7 @@ const Footer = () => {
                   />{" "}
                   <br />
                 </Col>
-                <Col md={3} className="footer-second-div">
+                <Col md={3} className="footer-second-div footer-second-info">
                   <div>
                     <h5>Information</h5>
                     <span className="animate-border border-black"></span>
@@ -74,7 +74,7 @@ const Footer = () => {
                     <Link to="/contact">Contact</Link>
                   </div>
                 </Col>
-                <Col md={3} className="footer-second-div">
+                <Col md={3} className="footer-second-div footer-second-com">
                   <div>
                     <h5>Company</h5>
                     <span className="animate-border border-black"></span>
@@ -91,7 +91,7 @@ const Footer = () => {
                   </div>
                 </Col>
 
-                <Col md={3} className="footer-second-div">
+                <Col md={3} className="footer-second-div footer-second-sub">
                   <div>
                     <h5>Subscribe</h5>
                     <span className="animate-border border-black"></span>
