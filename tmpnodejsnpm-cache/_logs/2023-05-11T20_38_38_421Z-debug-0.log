@@ -30,3 +30,4 @@
 29 timing npm:load:configScope Completed in 0ms
 30 timing npm:load Completed in 17ms
 31 silly logfile start cleaning logs, removing 2 files
+32 silly logfile done cleaning log files

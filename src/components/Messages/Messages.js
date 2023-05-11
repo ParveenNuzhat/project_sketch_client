@@ -12,7 +12,7 @@ import Footer from "../Footer/Footer";
 const Messages = () => {
   const [messages, setMessages] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/messages")
+    fetch("./messageData.json")
       .then((res) => res.json())
       .then((data) => setMessages(data));
   }, []);
