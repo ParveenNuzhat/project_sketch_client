@@ -1,9 +1,11 @@
 .gallery-img{
     transition: transform .3s;
+    
 }
 
 .gallery-img:hover{
-    transform:scale(2.5)
+    transform:scale(2.5);
+    
 }
 
 .sketch-container{
@@ -30,19 +32,29 @@
     font-weight: normal;
 }
 
+.swiper-button-next:after, .swiper-button-prev:after {
+    font-size: 30px !important;
+    color: #dc4225 !important;
+    font-weight: 600;
+}
+
 @media (max-width: 767px) {
     .media-container{
         margin-top: 0px !important;
         padding-top: 0px !important;
         
     }
-
     .sketch-container{
         background-image: none;
     }
     .about-card{
         width: 100%;
         margin: 25px 0 !important;
+    }
+    .swiper-button-next:after, .swiper-button-prev:after {
+        font-size: 25px !important;
+        color: #dc4225 !important;
+        font-weight: 600;
     }
 }
 
@@ -53,4 +65,11 @@
     .about-card{
         width: 100%;
     }
+    .swiper-button-next:after, .swiper-button-prev:after {
+        font-size: 25px !important;
+        color: #dc4225 !important;
+        font-weight: 600;
+    }
+
+   
 }

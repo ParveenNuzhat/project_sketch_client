@@ -1,29 +1,37 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useContext } from "react";
 import { useParams } from "react-router-dom";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import "./GalleryFolder.css";
+import { ProjectsContext } from "../../contexts/projects.context";
 
 const GalleryFolder = () => {
+  const { projects } = useContext(ProjectsContext);
   const { galleryId } = useParams();
 
-  const [gallery, setGallery] = useState([]);
-  //   console.log(gallery);
-  useEffect(() => {
-    fetch("/fakeData.JSON")
-      .then((res) => res.json())
-      .then((data) => console.log(data[0].project));
-  }, []);
+  const project = projects.filter((project) => project.id === galleryId);
 
-  //   const folderGallery = gallery?.map((fg) => fg.project);
-  //   const folderId = folderGallery.find((item) => item);
-  //   console.log(folderGallery);
-  //   console.log(folderId);
+  console.log(project);
   return (
     <div className="home-container">
       <Header></Header>
-      <h1>folder</h1>
-      {/* {gallery?.project?.imgGallery?.map((item) => console.log(item))} */}
+      <div className="my-5 py-3 text-center">
+        {project.map((item) => (
+          <>
+            <h3>{item?.title}</h3>
+            {item.images.map((img, i) => (
+              <>
+                <img
+                  className="w-100 p-5 img-fluid"
+                  key={i}
+                  src={img}
+                  alt="img"
+                />
+              </>
+            ))}
+          </>
+        ))}
+      </div>
       <Footer></Footer>
     </div>
   );

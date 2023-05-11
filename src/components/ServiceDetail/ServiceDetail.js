@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import { useEffect } from "react";
 import { useState } from "react";
 import { Card, Col, Container, Row } from "react-bootstrap";
@@ -8,11 +8,15 @@ import Gallery from "../Gallery/Gallery";
 import Header from "../Header/Header";
 
 import "./ServiceDetail.css";
+import { ProjectsContext } from "../../contexts/projects.context";
 
 const ServiceDetail = () => {
   const { serviceId } = useParams();
-  // console.log(serviceId);
+
   const [details, setDetails] = useState([]);
+  const { projects } = useContext(ProjectsContext);
+
+  const matchedProjects = projects.filter(project => project.service_id === serviceId);
 
   useEffect(() => {
     fetch("/fakeData.JSON")
@@ -88,7 +92,7 @@ const ServiceDetail = () => {
           lg={2}
           className="mx-auto my-4 pb-5 gx-5 gy-4 d-md-flex align-items-center justify-content-center"
         >
-          {detailService?.project.map((item) => (
+          {matchedProjects.map((item) => (
             <Gallery key={item._id} item={item}></Gallery>
           ))}
         </Row>

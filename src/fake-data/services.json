@@ -1,0 +1,14 @@
+[
+    {
+        "id": "1",
+        "serviceName": "Commercial Interior",
+        "img": "https://i.ibb.co/4tzytg9/com-img.jpg",
+        "description": "Create a lasting impression with our innovative commercial building design services. We combine function and aesthetics for a truly impressive result."
+    },
+    {
+        "id": "2",
+        "serviceName": "Residential Interior",
+        "img": "https://i.ibb.co/CKqvJ41/design-logo.png",
+        "description": "Transform your home with our bespoke residential interior design services. We create beautiful and functional spaces that reflect your unique style."
+    }
+]

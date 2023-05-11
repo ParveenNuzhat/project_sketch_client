@@ -133,7 +133,7 @@ const Design = () => {
             // pagination={{ clickable: true }}
             autoplay={true}
             slidesPerView={3}
-            spaceBetween={40}
+            spaceBetween={30}
             loop={true}
             grabCursor={true}
             effect={"coverflow"}
@@ -169,7 +169,7 @@ const Design = () => {
                     style={{
                       objectFit: "cover",
                       width: "100%",
-                      height: "55vh",
+                      height: "60vh",
                     }}
                   />
                 </div>

@@ -67,6 +67,7 @@
         height: 65vh; */
         width: 100vw;
         height: calc(100vh - 100px);
+       
         object-fit: cover;
         border-radius: 0 !important;
     }
