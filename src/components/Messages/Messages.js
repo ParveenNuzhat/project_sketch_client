@@ -12,7 +12,7 @@ import Footer from "../Footer/Footer";
 const Messages = () => {
   const [messages, setMessages] = useState([]);
   useEffect(() => {
-    fetch("./messageData.json")
+    fetch("https://sketch-archea.onrender.com/messages")
       .then((res) => res.json())
       .then((data) => setMessages(data));
   }, []);
